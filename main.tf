@@ -10,8 +10,8 @@ module "eks" {
   cluster_endpoint_public_access = true
 
   # Networking configuration.
-  vpc_id                   = "vpc-02d1ab643dbf7d013"
-  subnet_ids               = ["subnet-0709cad24966f4302", "subnet-0f2589345255277b9"]
+  vpc_id                   = "vpc-023d1ab643dbf7derrere"
+  subnet_ids               = ["subnet-0709cad2rererer"]
 
   # EKS Managed Node Group configuration.
   eks_managed_node_groups = {
