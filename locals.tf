@@ -1,5 +1,5 @@
 locals {
-  
+
   tags = {
     Name       = "module-1-eks"
     Owner      = "myname"
